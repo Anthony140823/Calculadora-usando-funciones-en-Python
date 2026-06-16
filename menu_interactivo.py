@@ -1,5 +1,8 @@
 # 2. menu_interactivo.py
 
+# Importación de modulos
+from sumar import sumar
+
 def menu():
     while True:
         print('''Operaciones que puedes realizar:
@@ -13,7 +16,7 @@ def menu():
 
         match(opcion):
             case 1:
-                pass
+                sumar()
             case 2:
                 pass
             case 3:
