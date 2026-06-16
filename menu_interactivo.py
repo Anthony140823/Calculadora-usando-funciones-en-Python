@@ -2,6 +2,8 @@
 
 # Importación de modulos
 from sumar import sumar
+from restar import restar
+
 
 def menu():
     while True:
@@ -18,7 +20,7 @@ def menu():
             case 1:
                 sumar()
             case 2:
-                pass
+                restar()
             case 3:
                 pass
             case 4:
@@ -27,5 +29,4 @@ def menu():
                 print("Saliendo del programa de Calculadora. Hasta pronto...")
                 break
             case _:
-                print("¡opción NO VÁLIDA!")
-                break
+                print("¡opción NO VÁLIDA!\n")
