@@ -13,7 +13,12 @@ Las operaciones que debe poder realizar son:
 Se debe agregar un menú para mostrar
 cada opción.
 '''
+# 1. main.py
+
+# Importación de módulos
+from menu_interactivo import menu
+
 # Pograma principal
 if __name__ == "__main__":
     print("*** Calculadora con Funciones ***")
-    
+    menu()
