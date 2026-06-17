@@ -3,7 +3,7 @@
 # Importación de modulos
 from sumar import sumar
 from restar import restar
-
+from multiplicar import multiplicar
 
 def menu():
     while True:
@@ -22,7 +22,7 @@ def menu():
             case 2:
                 restar()
             case 3:
-                pass
+                multiplicar()
             case 4:
                 pass
             case 5:
