@@ -4,6 +4,7 @@
 from sumar import sumar
 from restar import restar
 from multiplicar import multiplicar
+from division import dividir
 
 def menu():
     while True:
@@ -24,7 +25,7 @@ def menu():
             case 3:
                 multiplicar()
             case 4:
-                pass
+                dividir()
             case 5:
                 print("Saliendo del programa de Calculadora. Hasta pronto...")
                 break
