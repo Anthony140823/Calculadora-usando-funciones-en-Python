@@ -95,13 +95,13 @@ calculadora-con-funciones/
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU-USUARIO/calculadora-con-funciones.git
+git clone https://github.com/Anthony140823/Calculadora-usando-funciones-en-Python.git
 ```
 
 ## 2. Acceder al directorio
 
 ```bash
-cd calculadora-con-funciones
+cd RETO-CALCULADORA CON FUNCIONES
 ```
 
 ## 3. Ejecutar el programa
