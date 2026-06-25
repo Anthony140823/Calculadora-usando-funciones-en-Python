@@ -1,4 +1,4 @@
-# 5. division.py
+# 6. division.py
 def dividir():
     valor1 = float(input("Dame el valor 1: "))
     valor2 = float(input("Dame el valor 2: "))
